@@ -1,15 +1,16 @@
-[![CircleCI](https://circleci.com/gh/bitnami/bitnami-docker-kubeapps-chart-repo/tree/master.svg?style=shield)](https://circleci.com/gh/bitnami/bitnami-docker-kubeapps-chart-repo/tree/master)
+# What is Kubeapps ChartSvc?
 
-# What is Kubeapps Chart Repo?
+> Kubeapps ChartSvc is one of the main components of Kubeapps, a Web-based application deployment and management tool for Kubernetes clusters.
+>
+> This micro-service reads metadata about the repositories available and its charts in a MongoDB database and create an API endpoint to present it.
 
-> Kubeapps Tiller Proxy is a core component of Kubeapps, a Web-based application deployment and management tool for Kubernetes clusters.
 
 [https://kubeapps.com/](https://kubeapps.com/)
 
 # TL;DR;
 
 ```bash
-$ docker run --name kubeapps-chart-repo bitnami/kubeapps-chart-repo:latest
+$ docker run --name kubeapps-chartsvc bitnami/kubeapps-chartsvc:latest
 ```
 
 # Why use Bitnami Images?
@@ -17,15 +18,12 @@ $ docker run --name kubeapps-chart-repo bitnami/kubeapps-chart-repo:latest
 * Bitnami closely tracks upstream source changes and promptly publishes new versions of this image using our automated systems.
 * With Bitnami images the latest bug fixes and features are available as soon as possible.
 * Bitnami containers, virtual machines and cloud images use the same components and configuration approach - making it easy to switch between formats based on your project needs.
-* Bitnami images are built on CircleCI and automatically pushed to the Docker Hub.
-* All our images are based on [minideb](https://github.com/bitnami/minideb) a minimalist Debian based container image which gives you a small base container image and the familiarity of a leading linux distribution.
-* Bitnami container images are released daily with the latest distribution packages available.
 
-[![Anchore Image Overview](https://anchore.io/service/badges/image/17b93b3b61b73d94e0753d039d9137e2139a0a42e3ea266aba2ed98b5bffc0c8)](https://anchore.io/image/dockerhub/bitnami%2Fkubeapps-chart-repo%3Alatest#security)
+[![Anchore Image Overview](https://anchore.io/service/badges/image/17b93b3b61b73d94e0753d039d9137e2139a0a42e3ea266aba2ed98b5bffc0c8)](https://anchore.io/image/dockerhub/bitnami%2Fkubeapps-chartsvc%3Alatest#security)
 
 > The image overview badge contains a security report with all open CVEs. Click on 'Show only CVEs with fixes' to get the list of actionable security issues.
 
-# How to deploy Kubeapps Chart Repo in Kubernetes?
+# How to deploy Kubeapps ChartSvc in Kubernetes?
 
 Deploying Bitnami applications as Helm Charts is the easiest way to get started with our applications on Kubernetes. Read more about the installation in the [Bitnami Kubeapps Chart GitHub repository](https://github.com/bitnami/charts/tree/master/bitnami/kubeapps).
 
@@ -38,19 +36,19 @@ Non-root container images add an extra layer of security and are generally recom
 Learn more about the Bitnami tagging policy and the difference between rolling tags and immutable tags [in our documentation page](https://docs.bitnami.com/containers/how-to/understand-rolling-tags-containers/).
 
 
-* [`1-scratch`, `1.0.2-scratch-r2`, `1`, `1.0.2`, `1.0.2-r2`, `latest` (1/scratch/Dockerfile)](https://github.com/bitnami/bitnami-docker-kubeapps-chart-repo/blob/1.0.2/1/scratch/Dockerfile)
+* [`1-scratch`, `1.0.2-scratch-r3`, `1`, `1.0.2`, `1.0.2-r3`, `latest` (1/scratch/Dockerfile)](https://github.com/bitnami/bitnami-docker-kubeapps-chartsvc/blob/1.0.2/1/scratch/Dockerfile)
 
 # Configuration
 
-For further documentation, please check [here](https://github.com/helm/monocular/tree/master/cmd/chart-repo).
+For further documentation, please check [here](https://github.com/helm/monocular/tree/master/cmd/chartsvc).
 
 # Contributing
 
-We'd love for you to contribute to this container. You can request new features by creating an [issue](https://github.com/bitnami/bitnami-docker-kubeapps-chart-repo/issues), or submit a [pull request](https://github.com/bitnami/bitnami-docker-kubeapps-chart-repo/pulls) with your contribution.
+We'd love for you to contribute to this container. You can request new features by creating an [issue](https://github.com/bitnami/bitnami-docker-kubeapps-chartsvc/issues), or submit a [pull request](https://github.com/bitnami/bitnami-docker-kubeapps-chartsvc/pulls) with your contribution.
 
 # Issues
 
-If you encountered a problem running this container, you can file an [issue](https://github.com/bitnami/bitnami-docker-kubeapps-chart-repo/issues). For us to provide better support, be sure to include the following information in your issue:
+If you encountered a problem running this container, you can file an [issue](https://github.com/bitnami/bitnami-docker-kubeapps-chartsvc/issues). For us to provide better support, be sure to include the following information in your issue:
 
 - Host OS and version
 - Docker version (`docker version`)
