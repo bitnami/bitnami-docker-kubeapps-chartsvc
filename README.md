@@ -19,7 +19,7 @@ $ docker run --name kubeapps-chartsvc bitnami/kubeapps-chartsvc:latest
 * With Bitnami images the latest bug fixes and features are available as soon as possible.
 * Bitnami containers, virtual machines and cloud images use the same components and configuration approach - making it easy to switch between formats based on your project needs.
 
-[![Anchore Image Overview](https://anchore.io/service/badges/image/17b93b3b61b73d94e0753d039d9137e2139a0a42e3ea266aba2ed98b5bffc0c8)](https://anchore.io/image/dockerhub/bitnami%2Fkubeapps-chartsvc%3Alatest#security)
+[![Anchore Image Overview](https://anchore.io/service/badges/image/e4bece38b6d2713f4285e175b37d107c5e9025d288a4e98c750ecd6a08a62896)](https://anchore.io/image/dockerhub/bitnami%2Fkubeapps-chartsvc%3Alatest#security)
 
 > The image overview badge contains a security report with all open CVEs. Click on 'Show only CVEs with fixes' to get the list of actionable security issues.
 
@@ -36,7 +36,7 @@ Non-root container images add an extra layer of security and are generally recom
 Learn more about the Bitnami tagging policy and the difference between rolling tags and immutable tags [in our documentation page](https://docs.bitnami.com/containers/how-to/understand-rolling-tags-containers/).
 
 
-* [`1-scratch`, `1.0.2-scratch-r3`, `1`, `1.0.2`, `1.0.2-r3`, `latest` (1/scratch/Dockerfile)](https://github.com/bitnami/bitnami-docker-kubeapps-chartsvc/blob/1.0.2/1/scratch/Dockerfile)
+* [`1-scratch`, `1.0.3-scratch-r0`, `1`, `1.0.3`, `1.0.3-r0`, `latest` (1/scratch/Dockerfile)](https://github.com/bitnami/bitnami-docker-kubeapps-chartsvc/blob/1.0.3/1/scratch/Dockerfile)
 
 # Configuration
 
