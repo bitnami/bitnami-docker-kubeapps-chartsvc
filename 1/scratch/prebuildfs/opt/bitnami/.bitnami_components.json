@@ -1,0 +1,7 @@
+{
+    "kubeapps-chartsvc": {
+        "digest": "e07c776063c44efd0ea9466d3e7135591cd46944f65a9880a069ce0c1d4eb5dc",
+        "type": "BLACKSMITH",
+        "version": "1.10.0"
+    }
+}
